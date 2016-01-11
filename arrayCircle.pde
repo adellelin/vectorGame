@@ -20,7 +20,7 @@ void draw() {
     px2 = width/2 + cos(radians(i + 10))*(radius);
     py2 = height/2 + sin(radians(i + 10))*(radius);
     vector_line(false, new PVector(px,py), new PVector(px2,py2));
-    vector_line(false, new PVector(px * 2,py * 2), new PVector(px2 * 2,py2 * 2));
+   // vector_line(false, new PVector(px * 2,py * 2), new PVector(px2 * 2,py2 * 2));
     //ellipse(px, py, 25, 25);
     
     for (float j = 0; j < 0.5; j += 0.05) {
